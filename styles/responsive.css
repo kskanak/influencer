@@ -1,0 +1,58 @@
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+  /* header  */
+  .container {
+    width: 100%;
+  }
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* banner */
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  /* brands */
+  .container2 {
+    width: 100%;
+  }
+  .brand-name {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: ;
+    grid-row-gap: 23px;
+    justify-items: center;
+  }
+  /* cards */
+  .container3 {
+    width: 100%;
+  }
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-info {
+    text-align: center;
+  }
+  /* featured section */
+  .container2 {
+    width: 100%;
+  }
+  .featured-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .featured-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .featured-image img {
+    width: 95%;
+  }
+  .featured-content {
+    text-align: center;
+  }
+}
